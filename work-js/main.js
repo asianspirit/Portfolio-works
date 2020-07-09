@@ -132,7 +132,7 @@ $(function () {
 
       let swiper = new Swiper('.swiper-container', {
         slidesPerView: 1,
-        spaceBetween: 10,
+        spaceBetween: 40,
       //   init: false,
         pagination: {
           el: '.swiper-pagination',
@@ -140,19 +140,19 @@ $(function () {
           dynamicBullets: true,
         },
         breakpoints: {
-          440: {
-              slidesPerView: 1,
-              spaceBetween: 10,
-            },
-          640: {
-            slidesPerView: 2,
-            spaceBetween: 20,
-          },
-          768: {
-            slidesPerView: 4,
+          320: {
+            slidesPerView: 1,
             spaceBetween: 40,
           },
-          1024: {
+          440: {
+              slidesPerView: 2,
+              spaceBetween: 40,
+            },
+          640: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+          1365: {
             slidesPerView: 4,
             spaceBetween: 50,
           },
